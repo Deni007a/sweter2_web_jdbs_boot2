@@ -1,0 +1,36 @@
+package sweter2_web_jdbs_boot2.domain;
+
+
+public class Message {
+
+    private Integer id;
+    private String text;
+    private String tag;
+
+// Get Set
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
+    }
+}
